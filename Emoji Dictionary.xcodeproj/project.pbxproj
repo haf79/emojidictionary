@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13CC069B1EACEAA000CA2870 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC069A1EACEAA000CA2870 /* DefinitionViewController.swift */; };
 		13DAAC231EAB5172005FDF3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DAAC221EAB5172005FDF3A /* AppDelegate.swift */; };
 		13DAAC251EAB5172005FDF3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DAAC241EAB5172005FDF3A /* ViewController.swift */; };
 		13DAAC281EAB5172005FDF3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DAAC261EAB5172005FDF3A /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13CC069A1EACEAA000CA2870 /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefinitionViewController.swift; path = ../DefinitionViewController.swift; sourceTree = "<group>"; };
 		13DAAC1F1EAB5172005FDF3A /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13DAAC221EAB5172005FDF3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13DAAC241EAB5172005FDF3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				13DAAC221EAB5172005FDF3A /* AppDelegate.swift */,
 				13DAAC241EAB5172005FDF3A /* ViewController.swift */,
+				13CC069A1EACEAA000CA2870 /* DefinitionViewController.swift */,
 				13DAAC261EAB5172005FDF3A /* Main.storyboard */,
 				13DAAC291EAB5172005FDF3A /* Assets.xcassets */,
 				13DAAC2B1EAB5172005FDF3A /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13DAAC251EAB5172005FDF3A /* ViewController.swift in Sources */,
+				13CC069B1EACEAA000CA2870 /* DefinitionViewController.swift in Sources */,
 				13DAAC231EAB5172005FDF3A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +308,7 @@
 				13DAAC331EAB5172005FDF3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
